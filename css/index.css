@@ -72,17 +72,26 @@ p {
 
 header {
     width: 800px;
-    margin: 4vh auto;
+    margin: 0 auto;
+    margin-top: 4vh;
+    margin-bottom: 2vh;
 }
 
 .header-content {
     display: flex;
     align-items: baseline;
+    margin-bottom: 4vh;
 }
 
 .header-content nav {
+    width: 800px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+}
+
+.header-content nav a {
+    color: black;
+    text-decoration: none;
 }
 
 header .jumbo {
