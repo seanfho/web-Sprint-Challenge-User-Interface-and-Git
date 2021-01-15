@@ -46,8 +46,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/* end of meyerweb CSS reset*/
-
+/* end of meyerweb CSS*/
 
 
 * {
@@ -67,6 +66,29 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+}
+
+/* Header styles */
+
+header {
+    width: 800px;
+    margin: 4vh auto;
+}
+
+.header-content {
+    display: flex;
+    align-items: baseline;
+}
+
+.header-content nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header .jumbo {
+    display: block;
+    width: 800px;
+    margin: 2vh auto;
 }
 
 .container {
@@ -113,6 +135,48 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* Box color styles*/
+
+#teal {
+    background: teal;
+}
+
+#gold {
+    background: gold;
+}
+
+#cadetblue {
+    background: cadetblue;
+}
+
+#coral {
+    background: coral;
+}
+
+#crimson {
+    background: crimson;
+}
+
+#forestgreen {
+    background: forestgreen;
+}
+
+#darkorchid {
+    background: darkorchid;
+}
+
+#hotpink {
+    background: hotpink;
+}
+
+#indigo {
+    background: indigo;
+}
+
+#dodgerblue {
+    background: dodgerblue;
 }
 
 .bottom-content {
