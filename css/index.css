@@ -231,7 +231,6 @@ footer nav a {
 /* About page styles */
 
 .about-about-content {
-    margin-bottom: 20px;
     border-bottom: 1px dashed black;
     padding: 0 3%;
     padding-bottom: 20px;
@@ -244,10 +243,26 @@ footer nav a {
     margin-bottom: 20px;
 }
 .about-main-content .content-container {
-    width: 48%;
-    padding: 0 1%;
+    width: 46%;
     padding-bottom: 20px;
+    margin-bottom: 2%;
     border-bottom: 1px dashed black;  
+}
+
+.about-main-content img {
+    margin-top: 8%;
+}
+
+.about-main-content h2 {
+    margin-top: 3%;
+}
+
+.about-main-content button {
+    margin-top: 4%;
+    padding: 2% 4%;
+    background-color: white;
+    border-radius: 8px;
+
 }
 
 .about-bottom-content {
@@ -256,3 +271,4 @@ footer nav a {
     padding: 0 3%;
     padding-bottom: 20px;
 }
+
