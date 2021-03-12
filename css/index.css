@@ -91,7 +91,7 @@ header {
 }
 
 .header-content nav a {
-    color: #4F4F4F;
+    color: black;
     text-decoration: none;
 }
 
@@ -101,12 +101,14 @@ header .header-banner {
     margin: 2vh auto;
 }
 
-/* first section styles */
+/* general page content styles -  */
 
 .container {
     width: 800px;
     margin: 0 auto;
 }
+
+/* The Future and The Past content styles */
 
 .top-content {
     display: flex;
@@ -121,6 +123,8 @@ header .header-banner {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+/* Why Did It Have To Be Boxes... content styles */
 
 .middle-content {
     margin-bottom: 20px;
@@ -149,6 +153,50 @@ header .header-banner {
     justify-content: center;
 }
 
+#teal {
+    background: teal;
+}
+
+#gold {
+    background: gold;
+}
+
+#cadetblue {
+    background: cadetblue;
+}
+
+#coral {
+    background: coral;
+}
+
+#crimson {
+    background: crimson;
+}
+
+#forestgreen {
+    background: forestgreen;
+}
+
+#darkorchid {
+    background: darkorchid;
+}
+
+#hotpink {
+    background: hotpink;
+}
+
+#indigo {
+    background: indigo;
+}
+
+#dodgerblue {
+    background: dodgerblue;
+}
+
+
+
+/* That's No Moon content styles*/
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -162,6 +210,8 @@ header .header-banner {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* Footer styles*/
 
 footer {
     width: 100%;
