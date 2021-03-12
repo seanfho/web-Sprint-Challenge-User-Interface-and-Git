@@ -69,10 +69,15 @@ p {
     line-height: 1.4;
 }
 
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
 /* Header styles */
 
 header {
-    width: 800px;
+    width: 100%;
     margin: 0 auto;
     margin-top: 4vh;
     margin-bottom: 2vh;
@@ -85,7 +90,7 @@ header {
 }
 
 .header-content nav {
-    width: 800px;
+    width: 100%;
     display: flex;
     justify-content: space-around;
 }
@@ -97,15 +102,8 @@ header {
 
 header .header-banner {
     display: block;
-    width: 800px;
+    width: 100%;
     margin: 2vh auto;
-}
-
-/* general page content styles -  */
-
-.container {
-    width: 800px;
-    margin: 0 auto;
 }
 
 /* The Future and The Past content styles */
