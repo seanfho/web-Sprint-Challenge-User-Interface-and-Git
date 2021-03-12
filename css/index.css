@@ -46,7 +46,10 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* end of meyerweb CSS reset */
 
+
+/* General styles */
 * {
     box-sizing: border-box;
 }
@@ -71,6 +74,40 @@ p {
     margin: 0 auto;
 }
 
+/* Header styles */
+
+header {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+}
+
+.header-content {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 4vh;
+}
+
+.header-content nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-content nav a {
+    color: black;
+    text-decoration: none;
+}
+
+header .header-banner {
+    display: block;
+    width: 100%;
+    margin: 2vh auto;
+}
+
+/* The Future and The Past content styles */
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -84,6 +121,8 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+/* Why Did It Have To Be Boxes... content styles */
 
 .middle-content {
     margin-bottom: 20px;
@@ -112,6 +151,48 @@ p {
     justify-content: center;
 }
 
+#teal {
+    background: teal;
+}
+
+#gold {
+    background: gold;
+}
+
+#cadetblue {
+    background: cadetblue;
+}
+
+#coral {
+    background: coral;
+}
+
+#crimson {
+    background: crimson;
+}
+
+#forestgreen {
+    background: forestgreen;
+}
+
+#darkorchid {
+    background: darkorchid;
+}
+
+#hotpink {
+    background: hotpink;
+}
+
+#indigo {
+    background: indigo;
+}
+
+#dodgerblue {
+    background: dodgerblue;
+}
+
+/* That's No Moon content styles*/
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,6 +206,8 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* Footer styles*/
 
 footer {
     width: 100%;
@@ -144,3 +227,48 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About page styles */
+
+.about-about-content {
+    border-bottom: 1px dashed black;
+    padding: 0 3%;
+    padding-bottom: 20px;
+}
+
+.about-main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.about-main-content .content-container {
+    width: 46%;
+    padding-bottom: 20px;
+    margin-bottom: 2%;
+    border-bottom: 1px dashed black;  
+}
+
+.about-main-content img {
+    margin-top: 8%;
+}
+
+.about-main-content h2 {
+    margin-top: 3%;
+}
+
+.about-main-content button {
+    margin-top: 4%;
+    padding: 2% 4%;
+    background-color: white;
+    border-radius: 8px;
+
+}
+
+.about-bottom-content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0 3%;
+    padding-bottom: 20px;
+}
+

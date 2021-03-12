@@ -34,13 +34,30 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    Semantic HTML is HTML written in a descriptive way. This means that the tag of a semantic element will clearly descibe its content. Semantic HTML is useful practice because it makes it easier for develpers to understand and read the code. It is also useful for browsers and SEO. 
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+    1. A block-level element's width takes up all available space, where as an inline-level element will only take up as much space as is necessary to display it's content
+    2. block-level elements will start a new line on the page where as inline-level elements do not start new lines.
 
 3. What are the 4 areas of the box model?
 
+    The four areas of the box model include:
+    1. Content
+    2. Padding
+    3. Border
+    4. Margin
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+    While using flexbox, the align-items: center proterty will work on the cross axis. In this example if:
+    1. flex-direction: row; - flex items will be centered vertically
+    2. flex-direction: column - flex items will be centered horizontally
+
 5. Explain why git is valuable to a team of developers.
+
+    Git is valuable to a team of developers because it is an open source version control system. A version control system is used to record the history (The changes made to the files over time) of a project and it's files. In addition, a developer, or more likely a group of developers, can have multiple working branches of the same project without compromising the integrity of the master or main repository.  Working branches can then be merged to include only the code that is wanted. Git is a valuable tool for developers because it is an efficient and effective way to share work and collaborate on projects.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
