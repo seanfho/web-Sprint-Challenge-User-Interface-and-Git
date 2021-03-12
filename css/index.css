@@ -191,8 +191,6 @@ header .header-banner {
     background: dodgerblue;
 }
 
-
-
 /* That's No Moon content styles*/
 
 .bottom-content {
@@ -228,4 +226,33 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About page styles */
+
+.about-about-content {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding: 0 3%;
+    padding-bottom: 20px;
+}
+
+.about-main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.about-main-content .content-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;  
+}
+
+.about-bottom-content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0 3%;
+    padding-bottom: 20px;
 }
