@@ -46,7 +46,10 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* end of meyerweb CSS reset */
 
+
+/* General styles */
 * {
     box-sizing: border-box;
 }
@@ -65,6 +68,40 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+
+/* Header styles */
+
+header {
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+}
+
+.header-content {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 4vh;
+}
+
+.header-content nav {
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-content nav a {
+    color: #4F4F4F;
+    text-decoration: none;
+}
+
+header .header-banner {
+    display: block;
+    width: 800px;
+    margin: 2vh auto;
+}
+
+/* first section styles */
 
 .container {
     width: 800px;
